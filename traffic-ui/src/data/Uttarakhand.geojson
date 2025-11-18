@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uttarakhand"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [78.0, 30.4],
+            [78.2, 30.1],
+            [79.1, 29.6],
+            [79.8, 30.1],
+            [80.1, 30.6],
+            [79.9, 30.8],
+            [79.2, 31.0],
+            [78.6, 30.9],
+            [78.1, 30.7],
+            [78.0, 30.4]
+          ]
+        ]
+      }
+    }
+  ]
+}

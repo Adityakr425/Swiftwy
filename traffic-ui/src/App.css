@@ -1,0 +1,82 @@
+/* Whole App Layout */
+.app-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #f5f5f5;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Sidebar Panel */
+.sidebar {
+  width: 320px;                /* Increased width */
+  min-width: 320px;
+  background: white;
+  padding: 25px;
+  border-right: 2px solid #ddd;
+  overflow-y: auto;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Form Labels */
+.sidebar label {
+  font-weight: bold;
+  margin-top: 15px;
+  display: block;
+}
+
+/* Dropdowns */
+.sidebar select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+  font-size: 15px;
+}
+
+/* Button */
+.sidebar button {
+  width: 100%;
+  background: #0077cc;
+  color: white;
+  font-size: 17px;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.sidebar button:hover {
+  background: #005fa3;
+}
+
+/* Result Boxes */
+.result-box {
+  margin-top: 25px;
+  padding: 15px;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.result-box h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Map container */
+.map-area {
+  flex-grow: 1;
+  height: 100%;
+}
