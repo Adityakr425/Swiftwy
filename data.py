@@ -1,5 +1,5 @@
-# data.py
 from simulator import segment_status, hotspot_status
+
 
 def get_live_data():
     """
